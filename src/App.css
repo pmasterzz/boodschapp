@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.shopping-list-container {
+  width: 60%;
+}
+
+.shopping-list-item .counter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shopping-list-item {
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.shopping-list-item.checked {
+  background: #cecece;
+}
+
+.shopping-list-item.checked .title {
+  text-decoration: line-through;
+}
+
+.add-item-btn {
+  height: 38px;
+}
+
+.align-vertical {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  white-space: nowrap;
+}
